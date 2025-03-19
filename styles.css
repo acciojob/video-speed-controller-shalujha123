@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.wrapper {
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+      }
+      video {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      .progress {
+        background: #ddd;
+        height: 5px;
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+      }
+      .progress__filled {
+        background: red;
+        height: 100%;
+        width: 0%;
+        position: absolute;
+      }
+      .player__button {
+        font-size: 20px;
+        cursor: pointer;
+        padding: 5px 15px;
+      }
